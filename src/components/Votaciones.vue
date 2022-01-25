@@ -8,7 +8,7 @@
              <span class="badge bg-primary rounded-pill">{{item.votos}}</span>
         </li>
       </ul> 
-      <button @click="reiniciar" class="mt-2 btn btn-danger btn-block">Reiniciar</button>
+      <button @click="reiniciar" class="mt-2 btn btn-danger">Reiniciar</button>
   </div>
 </template>
 
