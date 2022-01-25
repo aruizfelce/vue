@@ -15,10 +15,10 @@
     import {mapState,mapMutations} from 'vuex';
     export default {
         computed:{
-            ...mapState(['tareas','tarea','id'])
+            ...mapState('tareasvuex',['tareas','tarea','id'])
         },
         methods:{
-            ...mapMutations(['cargar','cambiar']),
+            ...mapMutations('tareasvuex',['cargar','cambiar']),
         },
         created(){
             this.cargar()

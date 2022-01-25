@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Formulario/>
-    <Lista/>
+    <Lista/> 
   </div>
 </template>
 
